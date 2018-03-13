@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GCCamera_Example' do
+  pod 'GCCamera', :path => '../'
+
+  target 'GCCamera_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
