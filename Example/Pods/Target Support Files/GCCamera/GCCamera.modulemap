@@ -1,0 +1,6 @@
+framework module GCCamera {
+  umbrella header "GCCamera-umbrella.h"
+
+  export *
+  module * { export * }
+}

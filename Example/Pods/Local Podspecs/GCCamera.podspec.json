@@ -1,0 +1,22 @@
+{
+  "name": "GCCamera",
+  "version": "0.1.0",
+  "summary": "A short description of GCCamera.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jhl1214@me.com/GCCamera",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jhl1214@me.com": "dangercloz@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jhl1214@me.com/GCCamera.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GCCamera/Classes/**/*"
+}

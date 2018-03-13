@@ -1,0 +1,6 @@
+framework module Pods_GCCamera_Example {
+  umbrella header "Pods-GCCamera_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GCCamera'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GCCamera.'
+  s.summary          = 'Simple and easy lookup filter camera based on GPUImage library'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+GCCamera is a library allows you to use lookup filter easily with simple setting.
+This library is based on GPUImage library.
                        DESC
 
-  s.homepage         = 'https://github.com/jhl1214@me.com/GCCamera'
+  s.homepage         = 'https://github.com/jhl1214/GCCamera'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jhl1214@me.com' => 'dangercloz@gmail.com' }
-  s.source           = { :git => 'https://github.com/jhl1214@me.com/GCCamera.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jhl1214/GCCamera.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'GCCamera/Classes/**/*'
   
